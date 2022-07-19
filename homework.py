@@ -8,8 +8,7 @@ import requests
 import telegram
 from dotenv import load_dotenv
 
-from exceptions import (HomeworkStatusesException, SendMessageException,
-                        VariableAvailabilityException)
+from exceptions import (HomeworkStatusesException, SendMessageException)
 
 load_dotenv()
 
